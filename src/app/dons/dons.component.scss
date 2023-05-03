@@ -1,0 +1,377 @@
+// body{
+//     background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p1/5741719-modele-de-fond-islamique-avec-mihrab-podium-et-croissant-sur-fond-vert-emeraude-illustrationle-islamique-pour-les-vacances-musulmanes-vectoriel.jpg");
+//     background-size: cover;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     background-color: rgb(4, 77, 4);
+//     width: 100vw;
+//     height: 100vh;
+//     padding: 0%;
+//     margin: 0%;
+//   }
+//   .container{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     height: 100vh;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     background-color: rgb(4, 77, 4);
+//   }
+
+// #targetId1, #targetId2, #targetId3 {
+//     font-size: 3em;
+//     font-weight: bold;
+//     text-align: center;
+//   }
+
+//   input[type="number"] {
+//     padding: 5px;
+//     font-size: 1em;
+//     margin: 5px;
+//   }
+
+//   button {
+//     padding: 5px;
+//     background-color: #007bff;
+//     color: #fff;
+//     border: none;
+//     border-radius: 5px;
+//     cursor: pointer;
+//   }
+//   .cb{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: 2rem;
+//   }
+//   .dons{
+//     display: flex;
+//     justify-content: space-around;
+//     color: #eff1f3;
+//     animation: glow 2500ms linear infinite 4000ms;
+//   }
+
+//   .addition{
+//     display: flex;
+//     justify-content: space-evenly;
+//     margin-bottom: 10px;
+
+//   }
+//   .euros{
+//     font-size: 3rem;
+//   }
+//   .titre, #targetId3{
+
+//     font-size: 8rem;
+//     color: #007bff;
+//     text-shadow:
+//     0 0 7px #fff,
+//     0 0 10px #fff,
+//     0 0 21px #fff,
+//     0 0 42px #0fa,
+//     0 0 82px #0fa,
+//     0 0 92px #0fa,
+//     0 0 102px #0fa,
+//     0 0 151px #0fa;
+//   }
+
+//   #targetId3{
+//     animation: glow 2500ms linear infinite 4000ms;
+//   }
+
+//   @keyframes glow {
+//     40% {
+//       text-shadow: 0 0 15px #fff;
+//     }
+//   }
+
+// body{
+//     background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p1/5741719-modele-de-fond-islamique-avec-mihrab-podium-et-croissant-sur-fond-vert-emeraude-illustrationle-islamique-pour-les-vacances-musulmanes-vectoriel.jpg");
+//     background-size: cover;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     background-color: rgb(4, 77, 4);
+//     width: 100vw;
+//     height: 100vh;
+//     padding: 0%;
+//     margin: 0%;
+//   }
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   height: 100vh;
+//   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+//   background-image: url("https://welcomesaudi.com/uploads/0000/1/2021/07/23/madinah-al-masjid-an-nabawi.jpg");
+// }
+
+// #targetId1,
+// #targetId2,
+// #targetId3 {
+//   font-size: 3em;
+//   font-weight: bold;
+//   text-align: center;
+// }
+
+// input[type="number"] {
+//   padding: 5px;
+//   font-size: 1em;
+//   margin: 5px;
+// }
+
+// button {
+//   padding: 5px;
+//   background-color: #007bff;
+//   color: #fff;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
+// .cb {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 2rem;
+// }
+// .dons {
+//   display: flex;
+//   justify-content: space-around;
+//   color: #eff1f3;
+//   animation: reveal 3000ms ease-in-out forwards 200ms,
+//     glow 2500ms linear infinite 4000ms;
+// }
+
+// .addition {
+//   display: flex;
+//   justify-content: space-evenly;
+//   margin-bottom: 10px;
+// }
+// .euros {
+//   font-size: 3rem;
+// }
+// .titre,
+// #targetId3 {
+//   font-size: 8rem;
+//   color: #007bff;
+//   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+//     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+// }
+
+// #targetId3 {
+//   animation: glow 2500ms linear infinite 4000ms;
+// }
+// @keyframes reveal {
+//   80% {
+//     letter-spacing: 8px;
+//   }
+//   100% {
+//     background-size: 300% 300%;
+//   }
+// }
+// @keyframes glow {
+//   40% {
+//     text-shadow: 0 0 15px #fff;
+//   }
+// }
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=EB+Garamond:wght@500&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url("https://welcomesaudi.com/uploads/0000/1/2021/07/23/madinah-al-masjid-an-nabawi.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  #targetId1,
+  #targetId2,
+  #targetId3 {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .cb,
+  .liquide,
+  .total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+    .sous-titre {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      width: 50vw;
+      font-size: 3rem;
+      text-align: center;
+      animation: glow 2500ms linear infinite 4000ms;
+    }
+  }
+
+  .dons {
+    display: flex;
+    justify-content: space-around;
+    color: #eff1f3;
+
+    flex-wrap: wrap;
+  }
+
+  .addition {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+
+    // margin-bottom: 10px;
+    // flex-wrap: wrap;
+  }
+
+  .titre,
+  #targetId3 {
+    font-size: 4.5rem;
+    color: #022346;
+    filter: drop-shadow(5px 2px 4px rgb(47, 245, 179));
+    animation: reveal 3000ms ease forwards 200ms;
+
+    text-align: center;
+    font-family: "EB Garamond", serif;
+  }
+  .titre {
+    display: flex;
+    width: 60%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    text-shadow: 2px 1px 2px blue;
+  }
+
+  #targetId3 {
+    animation: glow 2500ms linear infinite 4000ms;
+  }
+
+  #increment-value1,
+  #increment-value2 {
+    color: rgb(3, 76, 3);
+    font-weight: normal;
+    font-family: "EB Garamond", serif;
+    font-size: 1.2rem;
+  }
+  #increment-btn {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #thanks {
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(14, 124, 12);
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 55px #0fa, 0 0 70px #0fa, 0 0 11px #0fa, 0 0 50px #0fa;
+    // background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #thanks2 {
+    font-family: "EB Garamond", serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(183, 159, 25);
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+      0 0 42px rgb(255, 204, 0), 0 0 55px rgb(195, 255, 0),
+      0 0 70px rgb(238, 255, 0), 0 0 11px rgb(157, 255, 0),
+      0 0 50px rgb(187, 255, 0);
+    animation: glow 2500ms linear infinite 4000ms;
+    // background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scroll-text-container {
+    width: 100%;
+    .scroll-text {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-family: "EB Garamond", serif;
+      background-color: #ffffff71;
+      animation: scroll 60s linear infinite; /* Définit l'animation de défilement */
+      .hadith1 {
+        border-right: 3px solid red;
+        margin: 0;
+      }
+    }
+  }
+  .scroll-text-container-back {
+    width: fit-content;
+    .scroll-text-back {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      font-family: "EB Garamond", serif;
+      background-color: #ffffff71;
+      animation: scroll-back 60s linear infinite; /* Définit l'animation de défilement */
+      .hadith2 {
+        margin: 0;
+        border-right: 3px solid red;
+      }
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    } /* Commence le défilement à gauche de la zone de texte */
+    100% {
+      transform: translateX(-130%);
+    } /* Déplace le texte hors de la zone de texte vers la gauche */
+  }
+  @keyframes scroll-back {
+    0% {
+      transform: translateX(-100%);
+    } /* Commence le défilement à gauche de la zone de texte */
+    100% {
+      transform: translateX(130%);
+    } /* Déplace le texte hors de la zone de texte vers la gauche */
+  }
+
+  @keyframes reveal {
+    80% {
+      letter-spacing: 2px;
+    }
+    100% {
+      background-size: 400% 400%;
+    }
+  }
+
+  @keyframes glow {
+    60% {
+      text-shadow: 0 0 5px #fff;
+    }
+  }
+}
