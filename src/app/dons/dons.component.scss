@@ -173,6 +173,7 @@
 // }
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500&display=swap");
 
 .container {
   display: flex;
@@ -189,9 +190,10 @@
   #targetId3 {
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
+    padding-left: 2rem;
   }
 
   input[type="number"]::-webkit-inner-spin-button,
@@ -201,25 +203,55 @@
   }
 
   .cb,
-  .liquide,
-  .total {
+  .liquide {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
+
+    .sous-titre.part1 {
+      width: fit-content;
+    }
     .sous-titre {
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
-
-      width: 50vw;
+      justify-content: space-around;
+      width: fit-content;
+      padding: 5px 15px;
       font-size: 3rem;
       text-align: center;
       animation: glow 2500ms linear infinite 4000ms;
+      filter: drop-shadow(3px 6px 5px rgb(1, 19, 19));
+      font-family: "Comfortaa", cursive;
     }
   }
+  .total {
+    // padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    .titre {
+      height: fit-content;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      text-shadow: 2px 1px 2px blue;
+      font-size: 5rem;
+      color: #022346;
+      filter: drop-shadow(5px 2px 4px rgb(47, 245, 179));
+      animation: reveal 3000ms ease forwards 200ms,
+        glow 2500ms linear infinite 4000ms;
+      text-align: center;
+      font-family: "Comfortaa", cursive;
+    }
+  }
+  #targetId3 {
+    font-size: 7rem;
+  }
   .dons {
     display: flex;
     justify-content: space-around;
@@ -231,80 +263,67 @@
   .addition {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 50%;
+    width: 55%;
     color: white;
     font-weight: bold;
-
+    padding: 0 10px;
+    .carte-bleue,
+    .flous {
+      width: 15%;
+      margin: 0 10px;
+    }
     // margin-bottom: 10px;
     // flex-wrap: wrap;
   }
 
-  .titre,
-  #targetId3 {
-    font-size: 4.5rem;
-    color: #022346;
-    filter: drop-shadow(5px 2px 4px rgb(47, 245, 179));
-    animation: reveal 3000ms ease forwards 200ms;
-
-    text-align: center;
-    font-family: "EB Garamond", serif;
-  }
-  .titre {
-    display: flex;
-    width: 60%;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    text-shadow: 2px 1px 2px blue;
-  }
-
-  #targetId3 {
-    animation: glow 2500ms linear infinite 4000ms;
-  }
-
   #increment-value1,
   #increment-value2 {
-    color: rgb(3, 76, 3);
+    color: rgb(71, 226, 224);
     font-weight: normal;
-    font-family: "EB Garamond", serif;
+    font-family: "Comfortaa", cursive;
     font-size: 1.2rem;
   }
   #increment-btn {
     font-size: 15px;
     font-weight: bold;
+    background-color: #ffffff27;
+    backdrop-filter: blur(2px);
   }
 
   #thanks {
-    font-family: "EB Garamond", serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Comfortaa", cursive;
     font-size: 3rem;
     text-transform: uppercase;
     color: rgb(14, 124, 12);
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
       0 0 55px #0fa, 0 0 70px #0fa, 0 0 11px #0fa, 0 0 50px #0fa;
     // background-color: purple;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   #thanks2 {
-    font-family: "EB Garamond", serif;
-    font-size: 6rem;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-size: 5rem;
     text-transform: uppercase;
     color: rgb(183, 159, 25);
+    // top: 70%;
+    // left: 50%;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
       0 0 42px rgb(255, 204, 0), 0 0 55px rgb(195, 255, 0),
       0 0 70px rgb(238, 255, 0), 0 0 11px rgb(157, 255, 0),
       0 0 50px rgb(187, 255, 0);
     animation: glow 2500ms linear infinite 4000ms;
-    // background-color: purple;
+    /* Définit l'animation de défilement */
+
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .scroll-text-container {
+    margin-bottom: 1rem;
     width: 100%;
     .scroll-text {
       display: flex;
@@ -314,8 +333,9 @@
       text-align: center;
       font-size: 1.5rem;
       line-height: 2rem;
-      font-family: "EB Garamond", serif;
-      background-color: #ffffff71;
+      font-family: "Comfortaa", cursive;
+      background-color: #ffffff27;
+      backdrop-filter: blur(2px);
       animation: scroll 60s linear infinite; /* Définit l'animation de défilement */
       .hadith1 {
         border-right: 3px solid red;
@@ -324,6 +344,7 @@
     }
   }
   .scroll-text-container-back {
+    margin-top: 1rem;
     width: fit-content;
     .scroll-text-back {
       display: flex;
@@ -331,10 +352,11 @@
       justify-content: space-evenly;
       border-radius: 5px;
       text-align: center;
-      font-size: 2.5rem;
-      line-height: 3rem;
-      font-family: "EB Garamond", serif;
-      background-color: #ffffff71;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      font-family: "Noto Kufi Arabic", sans-serif;
+      background-color: #ffffff27;
+      backdrop-filter: blur(2px);
       animation: scroll-back 60s linear infinite; /* Définit l'animation de défilement */
       .hadith2 {
         margin: 0;
@@ -348,7 +370,7 @@
       transform: translateX(100%);
     } /* Commence le défilement à gauche de la zone de texte */
     100% {
-      transform: translateX(-130%);
+      transform: translateX(-110%);
     } /* Déplace le texte hors de la zone de texte vers la gauche */
   }
   @keyframes scroll-back {
@@ -356,7 +378,7 @@
       transform: translateX(-100%);
     } /* Commence le défilement à gauche de la zone de texte */
     100% {
-      transform: translateX(130%);
+      transform: translateX(110%);
     } /* Déplace le texte hors de la zone de texte vers la gauche */
   }
 
@@ -374,4 +396,46 @@
       text-shadow: 0 0 5px #fff;
     }
   }
+}
+
+.text-sky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: skyblue;
+  width: 50vw;
+  transition: all 3s linear;
+}
+
+.text-gold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+  width: 50vw;
+  transition: all 3s linear;
+}
+.text-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  width: 50vw;
+  transition: all 3s linear;
+}
+.text-green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  width: 50vw;
+  transition: all 3s linear;
+}
+.text-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(239, 247, 239);
+  width: 50vw;
+  transition: all 3s linear;
 }
